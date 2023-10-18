@@ -1,0 +1,31 @@
+.page {
+	padding: 24px;
+	max-width: 400px;
+	margin: 0 auto;
+
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.title {
+    font-size: 24px;
+    color: #121212;
+  }
+
+  
+
+.button {
+    transition: opacity 0.7s;
+    cursor: pointer;
+  
+    &:hover {
+      opacity: 0.7;
+    }
+  }
